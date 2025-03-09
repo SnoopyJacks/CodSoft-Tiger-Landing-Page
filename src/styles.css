@@ -1,5 +1,6 @@
 body {
     background: blanchedalmond;
+    font-family: "Markazi Text", serif;
 }
 .container {
     max-width: 1400px;
@@ -18,6 +19,7 @@ header h1 {
     font-size: 120px;
     line-height: 1;
     margin: 30px 0;
+    letter-spacing: 20px;
 }
 header h2 {
     font-weight: 400;
