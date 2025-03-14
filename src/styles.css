@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Big-Shoulders", sans-serif;
     text-align: center;
     background-color: #ff6600;
 }
@@ -74,6 +74,11 @@ section {
 }
 .grid-3-columns-with-first-narrow {
     grid-template-columns: 1fr 1fr 1fr;
+}
+footer {
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("../images/mandy-choi-_qZ0us4az20-unsplash-1.jpg");
 }
 footer h3 {
     font-weight: 700;
