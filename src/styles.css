@@ -3,7 +3,6 @@ body {
     text-align: center;
     background-color: #ff6600;
 }
-
 .entire-workbook {
     max-width: 1400px;
     margin: 0 auto;
@@ -12,17 +11,50 @@ body {
 header {
     color: white;
     padding: 200px;
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../images/Sumatran_Tiger_Berlin_Tierpark.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.6)), url("../images/Sumatran_Tiger_Berlin_Tierpark.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color:white;
     text-align: center;
 }
-
+header h1 {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 2;
+    margin: 30px 0;
+}
+header h2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.5;
+    margin: 0;
+}
+.hero {
+    color: orange;
+}
 section {
     max-width: 1200px;
     margin: 0 auto;
     padding: 100PX 0;
+}
+.about-tigers {
+    background-color: white;
+}
+.about-tigers h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    letter-spacing: 5px;
+    color: black;
+    opacity: 0.3;
+    text-transform: uppercase;
+}
+.about-tigers p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 }
 .donate-btn {
     display: inline-block;
