@@ -100,6 +100,12 @@ button[type="submit"]:hover {
 .grid-3-columns-with-first-narrow {
     grid-template-columns: 1fr 1fr 1fr;
 }
+.grid-2-columns {
+    grid-template-columns: 1fr 1fr;
+}
+.img-responsive {
+    max-width: 100%;
+}
 footer {
     color: white;
     background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
